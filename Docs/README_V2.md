@@ -8,7 +8,7 @@ Base: the V1 Foundation (Fixed2) project that already built in Cloud Build, plus
 2. Unity version: `ProjectSettings/ProjectVersion.txt` (Unity 6, 6000.5.x). Use the same version in the build target.
 3. Pre-Export method name: `SL.EditorTools.SLEditorSetup.CloudPreExport` (already in the project from V1).
 4. Build target Android (or Windows). First build will import the new OBJ meshes (about 6 MB).
-5. Inside the editor, menu **Soulbound > Export Project Zip** makes a fresh zip of Assets, Packages and ProjectSettings on your desktop.
+5. (The old editor menu "Export Project Zip" was removed in the fixed build; it is not needed for Cloud Build.)
 
 ## Direct3D 11 (Windows editor)
 Menu **Soulbound > Use Direct3D11 on Windows**, or Edit > Project Settings > Player > Other Settings, untick Auto Graphics API for Windows, and put Direct3D11 first.
@@ -37,7 +37,7 @@ Menu **Soulbound > Use Direct3D11 on Windows**, or Edit > Project Settings > Pla
   | body_male / body_female | 3,212 each | headless bodies (not wired yet) |
   | head_a / head_b | 1,404 each | heads (not wired yet; which is male or female is unknown) |
 - The 20 species are registered with the old game's monster list and spawn in the adventure world (2 each, further out for higher levels). They use your base meshes instead of the code-built shapes.
-- Editor tools (menu **Soulbound**): Use Direct3D11, Validate Systems, Export Project Zip; and an import postprocessor that makes the meshes readable.
+- Editor tools (menu **Soulbound**): Use Direct3D11, Validate Systems; and an import postprocessor that makes the meshes readable.
 
 ## Known limits of this build (honest list)
 - **Not compiled or run.** Send the build log if anything fails.

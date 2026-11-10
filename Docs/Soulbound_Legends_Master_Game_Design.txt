@@ -1,0 +1,961 @@
+SOULBOUND LEGENDS MASTER GAME DESIGN DOCUMENT Complete Game Concept,
+Player Journey, World Rules, Progression, Loot, Dungeons, Records and
+Rewards
+
+DOCUMENT STATUS This document consolidates established Soulbound Legends
+decisions and supplies clearly labelled proposed specifications where
+exact values or tables have not yet been finalized. Proposed values are
+design recommendations, not previously approved canon.
+
+============================================================ 1. GAME
+IDENTITY AND CORE VISION
+============================================================
+
+Soulbound Legends is a premium fantasy multiplayer mobile game built
+around exploration, character growth, dangerous creatures, competitive
+combat, kingdoms, dungeons, rare inheritances and a world-wide
+progression story.
+
+The experience should feel like a living fantasy world rather than a
+collection of disconnected menus. Players begin as inexperienced
+adventurers, learn the world, develop their characters, hunt
+increasingly dangerous beasts, collect equipment and materials, join
+other players, enter dungeons and eventually participate in conflicts
+that affect the fate of the world.
+
+The visual target is high-quality, detailed fantasy presentation:
+expressive characters, believable armor and clothing, distinctive
+weapons, large creatures, rich environments, castles, villages, ruins,
+magical effects and readable mobile interfaces. The game must have its
+own visual identity and must not copy another game’s protected
+characters, maps, interface artwork or assets.
+
+Core principles: - Exploration and discovery should be meaningful. -
+Character progression should reward play, not only spending. - Rare
+drops should feel exciting without making ordinary progression
+impossible. - Every major activity should have a purpose and
+corresponding rewards. - Competitive modes should be fair and separately
+ranked. - The world should support future content updates without
+rebuilding the entire game. - Server authorization should control
+important accounts, purchases, trades, auctions and progression. -
+Players should be able to understand why they received an item,
+achievement or record.
+
+============================================================ 2. THE
+WORLD’S LORE
+============================================================
+
+The world’s creation and history are tied to ten elemental gods: Water,
+Fire, Earth, Void, Thunder, Nature, Light, Air, Ice and the Omnigod.
+
+There is also a hidden Shadow God. The Shadow God’s betrayal is not
+revealed in the opening sequence. The opening should preserve mystery
+rather than explain the entire story immediately.
+
+A cinematic opening concept: 1. Show the vast fantasy world, its
+kingdoms and the divine realm above it. 2. Introduce the ten elemental
+gods seated or standing in a powerful celestial setting. 3. Show the
+demonic threat and the war that endangers the world. 4. Show the gods
+combining their power to create an enormous magical barrier in the sky.
+5. Show the gods falling and losing their physical forms. 6. Leave the
+true cause of the catastrophe and the Shadow God’s betrayal concealed.
+7. Present the Soulbound Legends title. 8. Transition to the loading
+screen and player onboarding.
+
+The barrier is a major world-story mechanism. Its eventual fall is tied
+to the claiming of all divine inheritances and the required
+world-average level condition. The exact numerical average, server-wide
+calculation, grace period and announcement rules must be finalized
+before implementation.
+
+God inheritances: - Supreme Ruins contain a route to a God
+inheritance. - Only one challenger may attempt the relevant inheritance
+challenge at a time. - A current holder cannot challenge for another
+inheritance or assist another challenger in that restricted challenge. -
+Rift events appear around cities and kingdoms. - Inheritance ownership
+should be recorded permanently in world history and player records.
+
+The world story should advance through server events, discoveries,
+quests, environmental changes and major updates.
+
+============================================================ 3.
+FIRST-TIME PLAYER EXPERIENCE
+============================================================
+
+A new player should experience the following sequence:
+
+1.  Opening cinematic The player sees the gods, the ancient war, the
+    barrier and the ruined world. The hidden betrayal remains a mystery.
+
+2.  Loading screen Display Soulbound Legends artwork, useful gameplay
+    tips, event notices and loading progress.
+
+3.  Account sign-in Supported options: Google, Apple where supported,
+    and email. Account recovery and account security must be available.
+
+4.  Player name The player enters an in-game name. Changing it later
+    requires a rename card, subject to name availability and moderation
+    rules.
+
+5.  Character creation One-time initial character customization includes
+    gender/body presentation, head, hair, eyes, ears and limited
+    starting clothing. Male and female options control the appropriate
+    character base and animation setup. More customization can be
+    unlocked later.
+
+6.  Beginner lobby The player enters at Level 0. The lobby introduces
+    the main buttons, character, world access and basic navigation.
+
+7.  Tutorial Teach movement, camera control, basic attacks, dodging,
+    interaction, inventory, equipment, quests and safe beast hunting.
+    Tutorials should be skippable only where doing so will not leave
+    essential systems unexplained.
+
+8.  Adventure World Before Level 10, Adventure World is the main world
+    progression route. The player learns, explores, gathers, fights and
+    completes beginner quests.
+
+9.  Level 10 milestone Competitive modes and the relevant paid/privilege
+    progression features remain locked until the Level 10 requirement is
+    met. The Village-to-City/Kingdom access pass requirement applies as
+    previously specified. The precise relationship between a pass,
+    access eligibility and optional purchases must be communicated
+    clearly; purchases must not silently grant competitive power.
+
+============================================================ 4. MAIN
+LOBBY AND MENU LAYOUT
+============================================================
+
+The lobby is a 3D fantasy environment, not a flat menu background. It
+should contain a detailed character display, atmospheric sky, floating
+islands, distant castles or kingdoms, waterfalls, platforms,
+environmental movement and ambient sound.
+
+Main lobby access: - Adventure World - CS - Battle Royale - Siege -
+Store - Luck Royale - Events - Profile - Settings - Mail - Friends / Add
+Players - World Chat - Vault / Armory - Emotes - HUD Editor - Quests and
+achievements - Party and matchmaking - Pass and privilege information
+
+The lobby should keep important actions easy to find. Avoid filling the
+screen with overlapping promotional panels. Events and limited-time
+offers should be visible without blocking normal play.
+
+Store: displays purchasable cosmetics, bundles and permitted convenience
+items. Google Play billing is a separate purchase bridge. The server
+verifies successful transactions before granting goods.
+
+Luck Royale: contains three custom spin categories. Each category needs
+its own prize pool, odds disclosure, cost, duplicate handling and reward
+history. Do not use misleading odds or hide the real cost.
+
+Events: contains daily, weekly, seasonal, world and special challenge
+activities.
+
+Profile: displays name, level, rank information, character appearance,
+statistics, achievements, records, titles and selected showcase items.
+
+Settings: graphics, sound, music, voice, controls, sensitivity,
+language, notifications, privacy, account and accessibility settings.
+
+Mail: system notices, compensation, event rewards and approved player
+messages. Attachments need expiry rules and claim history.
+
+Friends: friend requests, party invitations, block/report tools and
+online status controls.
+
+Vault / Armory: owned weapons, armor, clothing, cosmetics, materials,
+collectibles and loadouts.
+
+World Chat: moderated communication with mute, block, report and spam
+controls.
+
+HUD Editor: lets players reposition, resize and adjust permitted
+controls. Provide reset and save layouts.
+
+============================================================ 5. PLAYER
+PROGRESSION ============================================================
+
+The player begins at Level 0. Adventure World is the beginner and main
+discovery route before Level 10.
+
+The proposed level progression structure should support long-term growth
+without forcing endless repetitive grinding. The final maximum level is
+not yet fixed. A scalable level range can be selected after progression
+and server-economy testing.
+
+Each level may grant: - Base character growth or attribute points,
+according to the final stat design. - A level-up reward. - Access to
+quests, regions, systems or activities when requirements are met. -
+Occasional cosmetic, currency or material rewards. - A record entry for
+milestone levels.
+
+Do not let level alone determine every fight. Equipment, skill choices,
+player execution, party coordination and creature mechanics should
+matter.
+
+Progression categories: - Character level - Equipment progression -
+Weapon mastery - Skill mastery - Crafting and gathering mastery -
+Exploration completion - Dungeon achievements - Competitive ranks -
+Reputation or faction standing, if adopted - God inheritance
+progression - Collection completion - Seasonal progression
+
+Level 10 unlock milestone: - Access eligibility for CS, BR and Siege. -
+Access to the relevant post-beginner world progression, subject to the
+required Village-to-City/Kingdom pass. - Additional systems and
+activities as defined by the final unlock table.
+
+The game should clearly show locked content, its requirements and the
+reason it is locked.
+
+============================================================ 6.
+ADVENTURE WORLD: LEARN AND DISCOVER
+============================================================
+
+Adventure World is the main exploration and progression experience. It
+is the only primary world route available before Level 10.
+
+The world is divided into village, city and kingdom progression. Village
+instances can be numbered, for example Village 001, Village 002 and so
+on, to distribute players and maintain performance. Instances should
+feel like parts of one world rather than unrelated matchmaking rooms.
+
+The player can: - Explore terrain and settlements. - Accept quests from
+NPCs. - Hunt beasts and monsters. - Gather resources. - Discover caves,
+ruins and hidden locations. - Find treasure and resource nodes. - Enter
+available dungeons. - Meet other players and form parties. - Learn
+crafting and equipment systems. - Participate in eligible events.
+
+Village, City and Kingdom: - Village is the beginner region. - City is a
+later progression area with the specified access-pass requirement. -
+Kingdom is a higher-level world progression area, also governed by the
+pass and level rules. - Each area should have distinctive terrain,
+creatures, NPCs, resources, landmarks and challenges. - The terrain
+should be reusable and expandable with additional infrastructure,
+settlements, roads, vegetation and points of interest.
+
+World instances should support dynamic transfers into inns, shops,
+events, taverns, parties, dungeons, boss areas and training areas. Solo
+and party instances should be supported where appropriate.
+
+============================================================ 7.
+CREATURES, SPECIES AND BEAST HUNTING
+============================================================
+
+Creatures should exist across land, air, sea, crawling and other fantasy
+creature forms. Each species needs a recognizable silhouette, anatomy,
+movement style, habitat, behaviour, attacks, resistances, weaknesses,
+loot table and level range.
+
+The beginner monster design requirement is two species for each level
+from Level 1 to Level 10: twenty beginner species in total. Their
+habitats and spawn locations should make progression understandable.
+Level 1 creatures should be found close to safe beginner routes;
+higher-level creatures should generally be farther away or in more
+dangerous locations.
+
+Creature families may include: - Beasts and predators - Insects and
+crawling creatures - Reptilian creatures - Flying creatures - Aquatic
+creatures - Elemental creatures - Undead creatures - Demonic creatures -
+Magical or corrupted creatures - Boss-class creatures
+
+Each creature record should define: - Species name and unique ID -
+Creature grade - Level and level range - Habitat and spawn conditions -
+Health, damage, defence and movement - Attack patterns and special
+abilities - Aggression and detection range - Party scaling rules -
+Respawn rules - Loot table and drop probabilities - Experience reward -
+Quest and record tags - Audio, animation and visual effects
+
+Creature behaviour: - Passive creatures may flee or defend themselves. -
+Aggressive creatures may pursue players within a defined range. - Pack
+creatures may coordinate. - Elite creatures should use stronger
+mechanics. - Bosses should have phases, telegraphed attacks and unique
+mechanics. - Flying, aquatic and crawling creatures need movement and
+navigation suited to their anatomy.
+
+Do not make every creature a simple damage sponge. Give species
+different ways to attack, escape, defend, ambush or support other
+creatures.
+
+============================================================ 8. BEAST
+LOOT: GRADES, CONTENTS AND DROP RULES
+============================================================
+
+Loot should be generated from a server-authorized loot table. A
+creature’s grade, level, species, location, event modifiers and party
+rules determine what it can drop.
+
+PROPOSED ITEM GRADE FRAMEWORK
+
+1.  Common Typical contents: basic hide, bone, meat, claws, scales,
+    low-grade crafting materials and small amounts of Aether where the
+    economy permits. Purpose: everyday crafting, cooking, beginner
+    quests and basic upgrades.
+
+2.  Uncommon Typical contents: improved hide, refined bone, quality
+    scales, stronger monster parts, uncommon herbs or crafting
+    components. Purpose: intermediate equipment crafting and improved
+    consumables.
+
+3.  Rare Typical contents: rare organs, special crystals, monster cores,
+    rare crafting components, weapon or armor components and occasional
+    equipment. Purpose: meaningful progression and specialist crafting.
+
+4.  Epic Typical contents: powerful creature cores, enchanted materials,
+    unique crafting ingredients, special equipment pieces and rare
+    cosmetic components. Purpose: high-level crafting and valuable
+    collection goals.
+
+5.  Legendary Typical contents: named creature materials, legendary
+    crafting components, distinctive equipment, rare collectibles and
+    special titles or achievement-linked rewards. Purpose: major hunting
+    milestones and endgame progression.
+
+6.  Mythic Typical contents: extremely scarce boss materials, unique
+    named equipment, exceptional crafting components and special
+    collection rewards. Purpose: world-class achievements and highly
+    difficult content.
+
+7.  Divine / Inheritance Reserved for exceptional god-related content,
+    divine inheritance progression and specific world-story rewards. It
+    should not be a normal random drop from ordinary beasts.
+
+These grades are a proposed framework. The final game may rename or
+consolidate them after the economy and item catalogue are tested.
+
+LOOT CATEGORIES
+
+-   Creature materials: hide, fur, scales, bones, claws, fangs,
+    feathers, shells, venom and organs.
+-   Magical materials: cores, essence, crystals, elemental fragments and
+    corrupted energy.
+-   Consumables: food ingredients, potions and temporary buffs where
+    permitted.
+-   Equipment: weapons, armor, accessories and upgrade components.
+-   Crafting recipes: recipes, patterns and schematics.
+-   Collectibles: trophies, creature records, display items and rare
+    curiosities.
+-   Currency: Aether or other explicitly approved currencies.
+-   Quest items: objective-specific drops that should not be
+    accidentally sold or destroyed.
+
+DROP RULES
+
+-   A creature should have a guaranteed or near-guaranteed baseline
+    material drop where appropriate.
+-   Higher-grade items should have lower drop chances.
+-   Bosses should use separate and clearly defined loot tables.
+-   Quest drops should have protection against unreasonable bad luck.
+-   Party loot rules must be visible before a boss encounter.
+-   Personal loot is recommended for important boss rewards to reduce
+    disputes.
+-   If shared loot is used, the system must define ownership, roll
+    rules, distribution and timeout.
+-   A player should not receive loot if they did not meet the
+    participation requirements.
+-   Anti-bot and anti-exploit checks must prevent repeated automated
+    farming.
+-   Drop odds should be testable and auditable by the server.
+-   Event bonuses must not secretly multiply rare drops beyond published
+    rules.
+
+PROPOSED DROP-TABLE EXAMPLE
+
+Ordinary low-level beast: - Common materials: frequent. - Uncommon
+materials: occasional. - Rare materials: very low chance. - Epic and
+above: not normally available.
+
+Elite beast: - Common and uncommon materials: regular. - Rare materials:
+possible. - Epic materials: low chance. - Legendary and above: normally
+unavailable unless specifically designed.
+
+Dungeon boss: - Guaranteed boss token or core fragment, if the dungeon
+rules specify it. - Several grade-appropriate materials. - Chance at
+equipment or a recipe. - First-clear reward handled separately from
+repeat loot.
+
+World boss: - Participation reward. - Boss-specific materials. - Chance
+at rare named equipment or collectible. - Server-wide record and event
+contribution rewards.
+
+Exact percentages, item quantities and pity protection must be set per
+creature and dungeon. They should not be invented globally because a
+single drop percentage would distort the entire economy.
+
+============================================================ 9. ITEM
+EQUIPMENT AND CHARACTER BUILD
+============================================================
+
+Equipment categories: - Main-hand weapons - Off-hand weapons or shields,
+where supported - Dual-wield combinations - Head armor - Chest armor -
+Arm armor - Leg armor - Foot armor - Accessories - Cosmetic clothing and
+appearance items
+
+Weapons should support different combat styles: swords, blades, axes,
+spears, bows, magical weapons and other original fantasy weapon types.
+
+The dual-wield system should have a dedicated toggle where the weapon
+combination supports it. Each weapon type needs its own animation,
+attack timing, range, effects and mastery progression.
+
+Equipment should have: - Item name and ID - Grade - Level requirement -
+Class or weapon compatibility if classes are used - Base attributes -
+Durability rules, if durability is adopted - Upgrade level - Enhancement
+limits - Socket or rune rules, if adopted - Binding and trading status -
+Source and acquisition history
+
+Avoid making grade the only measure of usefulness. A lower-grade item
+with a suitable build or special effect may remain useful in certain
+situations.
+
+============================================================ 10. PERKS,
+SKILLS AND BUILDS
+============================================================
+
+The skill system should allow different builds without creating one
+mandatory combination.
+
+Proposed perk categories: - Offensive: attack power, critical chance,
+weapon mastery and damage specialization. - Defensive: health, defence,
+resistance, blocking and damage reduction. - Mobility: dodge recovery,
+movement and traversal improvements. - Survival: resource efficiency,
+recovery and environmental resistance. - Beast hunting: tracking,
+harvesting efficiency and creature-specific knowledge. - Crafting:
+material efficiency, recipe access and crafting quality. - Party
+support: healing, protection, buffs and coordination. - Elemental:
+bonuses tied to elemental abilities or equipment. - Utility:
+interaction, gathering and other non-combat improvements.
+
+Perks must have clear descriptions, requirements, costs and effects.
+Avoid stacking effects without limits. Define caps, diminishing returns
+and mutually exclusive choices where necessary.
+
+Skills: - Each skill needs an ID, name, icon, animation, effect,
+cooldown, cost, range, targeting rules and upgrade path. - Skills must
+work with mobile controls. - Skill effects should be readable in
+multiplayer combat. - Bosses should not be permanently disabled by
+repeated crowd control. - Balance must consider solo and party play.
+
+The final number of skill slots and skill trees should be established
+through the combat prototype rather than guessed.
+
+============================================================ 11.
+DUNGEONS AND INSTANCE CONTENT
+============================================================
+
+Dungeons are structured PvE challenges with enemies, mechanics, rewards
+and completion records.
+
+Dungeon types may include: - Solo dungeons - Party dungeons - Challenge
+dungeons - Timed dungeons - Boss lairs - Story dungeons - Event
+dungeons - Endgame dungeons
+
+Every dungeon should define: - Entry location and unlock requirements -
+Recommended level and party size - Entry limits or cooldowns, if used -
+Difficulty selection - Dungeon map and room sequence - Enemy groups and
+elite encounters - Traps, puzzles or environmental mechanics - Boss
+mechanics and phases - Completion conditions - Failure and restart
+rules - Loot table - First-clear reward - Repeat-clear reward - Time and
+performance records - Anti-exploit and disconnect handling
+
+DUNGEON FLOW
+
+1.  Player discovers or unlocks the dungeon.
+2.  Player reads the requirements and reward preview.
+3.  Player enters alone or forms a party.
+4.  The instance loads the dungeon layout and encounter state.
+5.  Players clear enemies, solve mechanics and defeat bosses.
+6.  The server validates the result.
+7.  Rewards are granted and the record is saved.
+8.  The party receives a clear summary showing time, deaths,
+    contribution and rewards.
+
+FIRST-CLEAR REWARDS
+
+The first successful clear of a dungeon should provide a special
+one-time reward, such as: - First-clear chest - Dungeon title or badge -
+Unique trophy - Aether or progression currency - Crafting recipe -
+Dungeon-specific material - Achievement record
+
+First-clear rewards must be account-bound or character-bound where
+necessary to prevent players from repeatedly exploiting new characters
+or accounts. The exact scope—per character, account or server—must be
+stated for each reward.
+
+REPEAT-CLEAR REWARDS
+
+Repeat clears may grant: - Standard dungeon materials - Boss tokens -
+Crafting components - Equipment drops - Currency within economy limits -
+Weekly or daily reward progress
+
+Repeat rewards should remain useful without allowing unlimited farming
+to break the economy.
+
+============================================================ 12.
+RECORDS, FIRST-TIME ACHIEVEMENTS AND WORLD HISTORY
+============================================================
+
+Soulbound Legends should maintain a detailed record system. Records make
+major accomplishments visible and give players long-term goals.
+
+Record categories:
+
+FIRST-TIME RECORDS - First player to reach a level milestone on a
+server. - First player to discover a named location. - First player or
+party to clear a dungeon. - First player to defeat a specific boss. -
+First player to defeat a world boss, where the event permits a single
+credited first. - First player to craft a named high-grade item. - First
+player to discover a rare creature. - First player to complete a major
+quest chain. - First player to claim an eligible God inheritance. -
+First party to complete a special challenge. - First player to achieve a
+defined mastery milestone.
+
+COMBAT RECORDS - Total beasts defeated. - Species defeated. - Elite
+beasts defeated. - Bosses defeated. - Highest damage in a valid
+encounter. - Most damage blocked or mitigated. - Healing and support
+contribution. - Longest survival streak. - Dungeon deaths and successful
+no-death clears.
+
+EXPLORATION RECORDS - Regions discovered. - Landmarks discovered. -
+Hidden locations found. - Dungeons unlocked. - Treasure discoveries. -
+Exploration completion percentage.
+
+CRAFTING AND COLLECTION RECORDS - Items crafted. - Highest-grade item
+crafted. - Recipes discovered. - Materials gathered. - Collections
+completed. - Rare trophies obtained.
+
+COMPETITIVE RECORDS - CS rank history. - BR rank history. - Siege rank
+history. - Wins, losses and performance. - Seasonal placements. -
+Tournament achievements if tournaments are introduced.
+
+WORLD RECORDS - Rift events completed. - World bosses defeated. -
+Inheritances claimed. - Major world milestones. - Barrier progression. -
+Server-wide discoveries.
+
+REWARDING RECORDS
+
+Each record should have a reward tier based on difficulty and
+importance: - Minor record: achievement points, small currency or a
+basic title. - Notable record: title, badge, materials or cosmetic. -
+Major record: exclusive title, trophy, rare cosmetic or substantial
+progression reward. - Historic first: permanent history entry, unique
+title or badge, display trophy and an appropriate one-time reward.
+
+A first-time reward must never be granted repeatedly by resetting a
+character. The server should define whether the record is global,
+server-wide, account-wide, character-specific, seasonal or repeatable.
+
+Records should store: - Player or party identity - Server identifier -
+Record category - Achievement ID - Timestamp - Relevant encounter or
+activity ID - Validation status - Reward claimed status - Whether it is
+a first-ever, first-on-server or personal best
+
+A leaderboard should distinguish legitimate records and should not
+reward exploits, AFK participation or manipulated matchmaking.
+
+============================================================ 13. QUESTS
+AND NPC SYSTEM
+============================================================
+
+Quest types: - Main story quests - Beginner/tutorial quests - Side
+quests - Daily quests - Weekly quests - Hunting contracts - Gathering
+quests - Dungeon quests - Party quests - Exploration quests - Event
+quests - Hidden discovery quests
+
+Quest data should include objectives, location, NPC, level requirement,
+prerequisites, rewards, expiry, repeat rules and completion validation.
+
+NPCs should have: - Identity and role - Appearance and animation -
+Dialogue - Voice configuration - Daily or event schedules where
+supported - Quest availability - Shop or service access - Navigation and
+interaction logic - Faction or relationship state if adopted
+
+NPC generation should use controlled templates and rules. Random
+generation must not create broken quests, impossible dialogue or invalid
+rewards.
+
+============================================================ 14. THE
+THREE COMPETITIVE MODES
+============================================================
+
+All three modes unlock at Level 10 under the established progression
+rule. Each has a separate rank progression.
+
+A. CS — PRACTICE & SHARPEN
+
+CS is an elimination-focused competitive mode. It is not a site-capture
+mode.
+
+-   Teams compete through rounds.
+-   Elimination and round victory determine the result.
+-   Five broad map environments: grasslands, ruins, desert, snow and
+    ocean/air.
+-   The planned map catalogue contains 35 submaps.
+-   Competitive matchmaking should consider rank, performance, party
+    size and connection quality.
+-   CS rank is separate from BR and Siege rank.
+
+B. BR — ADAPT & SURVIVE
+
+-   Large fantasy maps.
+-   Five separate large-scale map concepts.
+-   Players enter through a random light-beam teleport rather than an
+    airplane.
+-   Players search for equipment, adapt to threats and survive.
+-   The HUD includes alive-player and kill information.
+-   The final safe-zone, match duration, squad size and loot balance
+    need dedicated tuning.
+-   BR rank is separate from CS and Siege rank.
+
+C. SIEGE — COORDINATE & EXECUTE
+
+-   Teams attack and defend a core.
+-   The planned structure uses best-of-two rounds followed by a final
+    simultaneous-objective stage, subject to final rules and map
+    testing.
+-   The planned map catalogue contains 35 submaps.
+-   Team coordination and objective execution matter.
+-   Siege rank is separate from CS and BR rank.
+
+Competitive rewards may include: - Rank points - Seasonal currency -
+Rank badges - Titles - Character cosmetics - Weapon cosmetics - Emotes -
+Profile frames - Seasonal trophies
+
+Rank rewards should emphasize skill and participation, not direct
+purchase of competitive advantage.
+
+============================================================ 15. RIFT
+EVENTS AND SUPREME RUINS
+============================================================
+
+Rifts appear around cities and kingdoms. They are world events that can
+introduce dangerous enemies, special objectives, rare materials and
+story discoveries.
+
+A Rift event should define: - Spawn conditions - Location and warning
+period - Recommended level - Participation rules - Enemy waves or
+objectives - Boss encounter - Contribution tracking - Completion and
+failure conditions - Personal and group rewards - Event record and
+history
+
+Supreme Ruins are major inheritance locations. They should be
+exceptionally important and carefully controlled.
+
+-   A Supreme Ruin provides a route to one God inheritance.
+-   Only one challenger can attempt the relevant challenge at a time.
+-   The current holder cannot challenge for another inheritance or
+    assist another challenger under the established restriction.
+-   The challenge must have clear entry, failure, completion and reward
+    rules.
+-   The server must validate ownership and prevent duplicate claims.
+-   The world record should show the inheritance holder and relevant
+    claim history.
+
+============================================================ 16. PLAYER
+KILLING, WANTED STATUS AND PK
+============================================================
+
+Player killing has consequences.
+
+Established direction: - PK can cause a red-name status. - Players can
+receive a loot bounty under the applicable rules. - PK levels track
+escalating behaviour. - At PK Level 10, the player becomes wanted. -
+Later world-story progression introduces a demon-war choice and
+God-chosen PK inheritance rules.
+
+The final PK system must define: - What counts as an unlawful attack. -
+Safe-zone protections. - Self-defence exceptions. - Party and guild
+exceptions if guilds are introduced. - Red-name duration and removal
+conditions. - Bounty calculation and collection. - What loot can be
+dropped. - Protected items that cannot be looted. - Wanted-player
+tracking and hunting rules. - Anti-griefing safeguards. - How accidental
+attacks are handled.
+
+Do not allow unrestricted looting of purchased goods, account-bound
+rewards or essential progression items. The loot rules must be clearly
+shown before players enter dangerous PvP areas.
+
+============================================================ 17.
+CURRENCY, STORE, AUCTION AND ECONOMY
+============================================================
+
+Aether is the named in-game currency.
+
+The economy should distinguish: - Earnable gameplay currency. - Premium
+purchase currency, if introduced. - Event currencies. - Dungeon or boss
+tokens. - Crafting materials. - Account-bound rewards. - Tradable goods.
+
+The Google Play purchase bridge is separate from the in-game auction and
+shops. Purchases must be verified by the server before granting items.
+
+The auction and commerce system must use server authorization. It should
+support: - Listing items - Search and filters - Price display - Listing
+fees, if adopted - Transaction history - Delivery and claim -
+Cancellation rules - Anti-fraud checks - Trade restrictions - Price
+manipulation detection
+
+The game should have currency sinks, such as approved crafting,
+services, upgrades or listing fees, to prevent uncontrolled inflation.
+All prices and reward rates need economy simulation before launch.
+
+============================================================ 18. AUDIO,
+VOICE AND COMMUNICATION
+============================================================
+
+Audio systems include: - Background music - Lobby music - Exploration
+ambience - Combat music - Boss music - Dungeon ambience - Environmental
+sound - Weapon and ability sound - Creature calls and attacks - UI sound
+effects - Voice chat
+
+Voice settings should include a clear slider arrangement for the
+intended masculine/feminine voice presentation, with the right/left
+direction as specified in the design. NPC voice selection should
+correspond to the NPC’s configured gender presentation. The final
+implementation must use licensed or original voice assets.
+
+Voice chat needs: - Mute and unmute - Speaker controls - Microphone
+controls - Party and proximity rules if proximity chat is adopted -
+Report and moderation tools - Privacy settings
+
+============================================================ 19. MOBILE
+HUD AND CONTROLS
+============================================================
+
+The HUD should use a clean black-focused button language with original
+fantasy-themed icons and visual assets. It must not copy another game’s
+exact layout or artwork.
+
+Core HUD: - Minimap at the top-left. - Health and mana indicators. -
+Microphone and speaker controls near the crosshair area. - Movement
+joystick. - Swipe-based dodge in up, left, right and down directions. -
+Left-hand and right-hand attack controls. - Eight-slot skill/emote
+wheel. - Interaction button slightly right of centre. - Weapon switching
+bar. - Dual-wield toggle where applicable. - BR alive-player and kill
+panel.
+
+The HUD must support: - Repositioning and resizing. - Sensitivity
+options. - Button opacity and scale. - Save and reset layouts. -
+Different device aspect ratios. - Accessibility and touch-target
+requirements.
+
+The same core HUD language should be used across modes, with
+mode-specific information added where necessary.
+
+============================================================ 20.
+CHARACTER, MONSTER, CLOTHING AND WORLD GENERATION
+============================================================
+
+Character generation should support controlled customization and
+consistent animation. It should include body, head, hair, eyes, ears,
+clothing, armor, accessories and equipment attachment points.
+
+Monster generation should support land, air, sea, crawling and other
+creature forms. A generator must not simply produce random disconnected
+parts. It needs valid anatomy rules, skeleton compatibility, locomotion,
+attack sets, collision, animation and performance limits.
+
+World generation and map assembly should use reusable terrain and
+modular infrastructure. The terrain should be separable from roads,
+vegetation, houses, buildings and other structures so that the same
+terrain foundation can be expanded.
+
+The world system should support: - Terrain - Roads and paths -
+Vegetation - Buildings - Settlements - Castles and infrastructure -
+Dungeons - Resource nodes - Creature spawn areas - Navigation data -
+Lighting and atmosphere - Audio zones - Streaming and level-of-detail
+rules
+
+============================================================ 21. SERVER,
+SECURITY AND LIVE OPERATIONS
+============================================================
+
+Core Server Authorization controls important game operations. Soulbound
+Sentinel is the additional security and monitoring layer intended to
+cover gaps.
+
+Core server responsibilities: - Authentication and account data - Player
+progression - Inventory and item ownership - Currency - Purchases -
+Auction and trade - Loot generation - Match results - Dungeon
+completion - Records and achievements - Inheritance ownership - Event
+rewards
+
+Soulbound Sentinel direction: - Monitor online players, accounts,
+economy, APIs and servers. - Detect suspicious behaviour and
+tampering. - Maintain incidents, investigations, policies and audit
+logs. - Support Super Admin, Security Admin, Auditor and Read-Only
+Monitor roles. - Produce a While You Were Away report. - Include a
+game-link field. - Apply a documented punishment ladder. - Keep an audit
+trail for administrator actions.
+
+Security must be server-authoritative. The client must not decide its
+own currency, loot, purchases, rank results or inheritance ownership.
+
+============================================================ 22. CONTENT
+UPDATES AND LIVE SERVICE
+============================================================
+
+The game should be designed so that future content can be updated
+without rebuilding every existing system.
+
+Editable content should include: - Items and equipment - Skills and
+perks - Monsters and NPCs - Quests - Maps and regions - Dungeons and
+bosses - Events and Rift events - Store and Luck Royale pools - UI
+content - Progression requirements - Drop tables - Audio and music -
+Balance values - Server rules
+
+Updates should be versioned, tested and reversible. A failed content
+update must not corrupt player inventories or progression.
+
+The initial launch should contain the agreed core experience. Later
+updates can expand endgame content, major story revelations, finishing
+content and additional systems as players progress.
+
+============================================================ 23. REWARD
+DESIGN PRINCIPLES
+============================================================
+
+Rewards should match the difficulty, time and risk of the activity.
+
+Examples: - Beginner quests: experience, basic materials, starter
+equipment and guidance. - Ordinary beasts: common materials and
+occasional uncommon drops. - Elite beasts: better materials and
+rare-drop opportunities. - Dungeon completion: dungeon materials, tokens
+and equipment chances. - First dungeon clear: one-time first-clear
+reward and permanent record. - World boss: contribution-based reward,
+boss materials and event record. - First discovery: discovery record,
+title or collectible where appropriate. - Competitive seasons:
+rank-based cosmetics, badges and seasonal currency. - Major story
+milestones: unique titles, trophies and world-history entries. - God
+inheritance: unique world-changing progression and permanent ownership
+record.
+
+Reward safeguards: - Do not reward AFK players as if they contributed. -
+Do not let repeated account resets claim first-time rewards. - Show
+reward requirements before the activity. - Save reward grants in a
+transaction-safe way. - Keep a claim history. - Provide support tools
+for missing or incorrectly granted rewards.
+
+============================================================ 24.
+REQUIRED SYSTEMS CHECKLIST
+============================================================
+
+The implementation should include or account for:
+
+1.  Account authentication
+2.  Player profile and naming
+3.  Character customization
+4.  Character movement and camera
+5.  Combat and weapon handling
+6.  Dodge and movement skills
+7.  Skill and perk system
+8.  Equipment and inventory
+9.  Item grade and loot tables
+10. Beast and monster AI
+11. Creature species database
+12. NPC generation and dialogue
+13. Quest system
+14. Adventure World
+15. Village, City and Kingdom access
+16. World instances
+17. Party and matchmaking
+18. CS mode
+19. BR mode
+20. Siege mode
+21. Separate competitive ranks
+22. Dungeon system
+23. Boss encounters
+24. Rift events
+25. Supreme Ruins
+26. God inheritance ownership
+27. PK and wanted system
+28. Aether and currency ledger
+29. Store and purchase verification
+30. Luck Royale
+31. Auction and trade
+32. Crafting and gathering
+33. Records and achievements
+34. First-time reward validation
+35. Leaderboards
+36. Friends and social tools
+37. World chat
+38. Voice chat
+39. Audio and music
+40. HUD editor
+41. Settings and accessibility
+42. Mail and reward delivery
+43. Events and seasonal content
+44. Server authorization
+45. Soulbound Sentinel
+46. Analytics and audit logs
+47. Live content update system
+48. Save and recovery system
+49. Anti-cheat and exploit detection
+50. Performance, streaming and mobile optimization
+
+============================================================ 25. FINAL
+DESIGN RULES THAT STILL NEED NUMERICAL APPROVAL
+============================================================
+
+The following details should not be treated as finalized until
+explicitly approved and tested:
+
+-   Maximum player level and experience curve.
+-   Exact attributes and stat formulas.
+-   Exact item grade names and colour presentation.
+-   Drop percentages and quantities for every creature.
+-   Loot ownership and party distribution details.
+-   Exact Aether sources, sinks and prices.
+-   Equipment enhancement limits.
+-   Exact perk values, caps and skill cooldowns.
+-   Dungeon entry limits and difficulty scaling.
+-   First-clear reward scope: character, account or server.
+-   Exact record reward values.
+-   Competitive team sizes, round timing and rank formulas.
+-   BR safe-zone and match rules.
+-   Siege final-stage timing and scoring.
+-   PK bounty formulas and protected loot.
+-   Exact City and Kingdom pass rules.
+-   Barrier world-average level calculation.
+-   Rift schedule and contribution formulas.
+-   God inheritance challenge details.
+-   Launch content versus post-launch content.
+
+These values should be balanced together. For example, creature drop
+rates must be tested against crafting costs, auction supply, Aether
+generation and the time required to progress. Changing one value can
+affect the whole economy.
+
+============================================================ 26. THE
+INTENDED PLAYER JOURNEY
+============================================================
+
+A player begins by witnessing the ancient divine catastrophe. They
+create an account and character, enter the lobby and learn the controls.
+They start at Level 0 and enter Adventure World, where they explore a
+beginner village, meet NPCs, complete quests, gather resources and fight
+the first creatures.
+
+As the player grows, they discover new species, collect materials of
+different grades, craft and improve equipment, learn skills and perks,
+find hidden places and enter increasingly challenging content.
+
+At Level 10, the player reaches a major progression milestone. The
+competitive modes become available under the game’s access rules, and
+the player can pursue CS, BR and Siege ranks while continuing the
+Adventure World journey and qualifying for later regions through the
+required pass.
+
+Further progression introduces cities, kingdoms, stronger beasts, elite
+encounters, dungeons, world bosses, Rift events and Supreme Ruins.
+Players build reputations through records, first clears, discoveries,
+crafting, competition and major world events.
+
+The world’s divine history gradually becomes clearer. God inheritances
+become central to the world’s future. The barrier’s eventual fall is
+governed by the established world conditions. The hidden Shadow God’s
+betrayal remains a major mystery until the intended story reveal.
+
+The result should be a world where players have reasons to explore,
+hunt, craft, compete, cooperate, collect, improve and return—not merely
+grind levels.
+
+END OF MASTER GAME DESIGN DOCUMENT SOULBOUND LEGENDS
